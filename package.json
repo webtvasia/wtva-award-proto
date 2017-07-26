@@ -1,0 +1,32 @@
+{
+  "name": "wtva-award-proto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bxslider": "^4.2.11",
+    "fitvids": "^2.0.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "jquery-ui": "^1.12.1",
+    "modernizr": "^3.5.0",
+    "owl.carousel": "^2.2.0",
+    "reset-css": "^2.2.0",
+    "superfish": "^1.7.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webtvasia/wtva-award-proto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webtvasia/wtva-award-proto/issues"
+  },
+  "homepage": "https://github.com/webtvasia/wtva-award-proto#readme"
+}
