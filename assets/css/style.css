@@ -44,6 +44,78 @@ body {
   font-weight: 900;
   font-style: normal;
 }
+
+/*.one-page-height {
+  min-height: 70vh;
+}*/
+.nominee-block {
+  /*min-height: 65vh;*/
+  padding-top: 10px;
+}
+.nominee-intro {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.81);
+  box-shadow: -10px -10px 0px rgba(255, 44, 0, 0.27);
+  min-height: 310px;
+}
+
+.nominee-intro-padding {
+  padding-left: 10px;
+  padding-top: 30px;
+}
+
+.nominee-cate-img {
+  max-width: 100%;
+}
+
+.nominee-title {
+  color: white;
+  padding: 15px;
+  width: 290px;
+  text-align: center;
+  background-color: rgba(255, 44, 0, 0.9);
+  box-shadow: 6px 5px 0px rgba(255, 54, 78, 0.45);
+}
+
+.nominee-cate-title {
+  color: white;
+  padding: 2px;
+  text-align: left;
+  background-color: #9012fe;
+  font-size: 12px;
+}
+
+.promo-home-section {
+  background-image: url("file:///Users/xiong/Desktop/wtva-proto/assets/img/promo-home-background.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin-top: -75px;
+}
+
+.promo-title {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  background-color: rgba(28, 1, 255, 0.90);
+  box-shadow: 6px 5px 0px rgba(110, 117, 255, 0.90);
+  margin-left: -200px;
+  margin-bottom: -100px;
+  z-index: 999;
+  position: relative;
+}
+.promo-title-sm {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  background-color: rgba(28, 1, 255, 0.90);
+  box-shadow: 6px 5px 0px rgba(110, 117, 255, 0.90);
+}
+.promo-home-container {
+  padding-top: 82px;
+  padding-bottom: 82px;
+}
 /*.carousel.vertical .active {*/
   /*top: 0;*/
 /*}*/
