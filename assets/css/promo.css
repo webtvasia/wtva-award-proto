@@ -221,11 +221,3 @@ body {
   color: rgb(255, 255, 255);
   background-color: rgba(0, 0, 0, 0.5);
 }
-.titillium {
-  font-family: 'Titillium Web', sans-serif;
-}
-.titillium-black {
-  font-family: 'Titillium Web', sans-serif; 
-  font-weight: 900;
-  font-style: normal;
-}

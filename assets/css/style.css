@@ -35,6 +35,15 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
+
+.titillium {
+  font-family: 'Titillium Web', sans-serif;
+}
+.titillium-black {
+  font-family: 'Titillium Web', sans-serif; 
+  font-weight: 900;
+  font-style: normal;
+}
 /*.carousel.vertical .active {*/
   /*top: 0;*/
 /*}*/
