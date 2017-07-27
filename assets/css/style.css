@@ -99,7 +99,7 @@ body {
   text-align: center;
   background-color: rgba(28, 1, 255, 0.90);
   box-shadow: 6px 5px 0px rgba(110, 117, 255, 0.90);
-  margin-left: -200px;
+  margin-left: -220px;
   margin-bottom: -100px;
   z-index: 999;
   position: relative;
@@ -113,9 +113,32 @@ body {
   box-shadow: 6px 5px 0px rgba(110, 117, 255, 0.90);
 }
 .promo-home-container {
-  padding-top: 82px;
-  padding-bottom: 82px;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
+.promo-upload {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  background-color: rgba(254, 62, 62, 0.9);
+  box-shadow: 6px 5px 0px rgba(254, 62, 62, 0.40);
+  z-index: 999;
+  position: relative;
+  cursor: pointer;
+  margin-top: -10px;
+
+}
+
+.social-title {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  background-color: rgba(255, 44, 0, 0.90);
+  box-shadow: 6px 5px 0px rgba(255, 44, 0, 0.45);
+}
+
 /*.carousel.vertical .active {*/
   /*top: 0;*/
 /*}*/
