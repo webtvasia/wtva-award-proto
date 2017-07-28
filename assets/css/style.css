@@ -89,7 +89,6 @@ body {
   background-image: url("file:///Users/xiong/Desktop/wtva-proto/assets/img/promo-home-background.jpg");
   background-size: cover;
   background-position: center center;
-  margin-top: -75px;
 }
 
 .promo-title {
@@ -122,7 +121,7 @@ body {
   width: 300px;
   text-align: center;
   background-color: rgba(254, 62, 62, 0.9);
-  box-shadow: 6px 5px 0px rgba(254, 62, 62, 0.40);
+  box-shadow: -6px 5px 0px rgba(254, 62, 62, 0.40);
   z-index: 999;
   position: relative;
   cursor: pointer;
@@ -137,6 +136,15 @@ body {
   text-align: center;
   background-color: rgba(255, 44, 0, 0.90);
   box-shadow: 6px 5px 0px rgba(255, 44, 0, 0.45);
+}
+
+.last-year-title {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  background-color: rgba(254, 135, 0, 0.90);;
+  box-shadow: 6px 5px 0px rgba(254, 135, 0, 0.45);
 }
 
 /*.carousel.vertical .active {*/
