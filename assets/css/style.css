@@ -45,17 +45,13 @@ body {
   font-style: normal;
 }
 
-/*.one-page-height {
-  min-height: 70vh;
-}*/
 .nominee-block {
-  /*min-height: 65vh;*/
   padding-top: 10px;
 }
 .nominee-intro {
   padding: 30px;
   background-color: rgba(255, 255, 255, 0.81);
-  box-shadow: -10px -10px 0px rgba(255, 44, 0, 0.27);
+  box-shadow: 0px 0px 0px 10px rgba(255, 44, 0, 0.27);
   min-height: 310px;
 }
 
@@ -229,6 +225,19 @@ ul.thumbnails {
   height: 90%;
 }
 
+.overlay-2 {
+  position: absolute;
+  bottom: 25px;
+  left: 5px;
+  background-color: rgba(0, 0, 0, .7);
+  overflow: hidden;
+  width: 95%;
+  transition: .5s ease;
+  box-shadow: 0 0 6px 4px rgba(0, 0, 0, .7);
+}
+.thumbnail:hover .overlay-2 {
+  height: 90%;
+}
 .text {
   color: white;
   position: absolute;
@@ -262,6 +271,23 @@ ul.thumbnails {
   float: right;
 }
 
+.feature-title {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: left;
+  background-color: rgba(254, 135, 0, 0.90);
+  box-shadow: 6px 5px 0px rgba(254, 135, 0, 0.45);
+  margin-top: -50px;
+}
+.recommended-title {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: left;
+  background-color: rgba(28, 1, 255, 0.9);
+  box-shadow: 6px 5px 0px rgba(28, 1, 255, 0.45);
+}
 /*.carousel.vertical .active {*/
   /*top: 0;*/
 /*}*/
