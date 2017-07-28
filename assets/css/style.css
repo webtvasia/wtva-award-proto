@@ -225,6 +225,21 @@ ul.thumbnails {
   height: 90%;
 }
 
+.thumbnail:hover {
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.thumbnail-others:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.advertisment:hover {
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, .2);
+  cursor: pointer;
+}
 .overlay-2 {
   position: absolute;
   bottom: 25px;
