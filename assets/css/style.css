@@ -82,7 +82,7 @@ body {
 }
 
 .promo-home-section {
-  background-image: url("file:///Users/xiong/Desktop/wtva-proto/assets/img/promo-home-background.jpg");
+  background-image: url("../img/promo-home-background.jpg");
   background-size: cover;
   background-position: center center;
 }

@@ -130,10 +130,8 @@ body {
     display: inline-block;
     float: left;
     text-align: left;
-    width: 210px;
     list-style: none;
     padding: 0px;
-    margin-top: 70px;
     position: relative;
     /* -webkit-box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
@@ -141,7 +139,7 @@ body {
 }
 
 .nav>li {
-    width: 210px;
+    /* width: 210px; */
     /* background: rgba(0, 0, 0, 0.8); */
     display: block;
     font-size: 14px;
@@ -169,7 +167,6 @@ body {
     /* margin-top: 0px; */
     position: fixed;
     top: 70px;
-    left: 210px;
     width: 503px;
     padding: 10px 0px 20px 20px;
     opacity: 0;
