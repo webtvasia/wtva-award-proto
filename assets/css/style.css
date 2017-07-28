@@ -35,6 +35,273 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
+
+.titillium {
+  font-family: 'Titillium Web', sans-serif;
+}
+.titillium-black {
+  font-family: 'Titillium Web', sans-serif; 
+  font-weight: 900;
+  font-style: normal;
+}
+
+.nominee-block {
+  padding-top: 10px;
+}
+.nominee-intro {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.81);
+  box-shadow: 0px 0px 0px 10px rgba(255, 44, 0, 0.27);
+  min-height: 310px;
+}
+
+.nominee-intro-padding {
+  padding-left: 10px;
+  padding-top: 30px;
+}
+
+.nominee-cate-img {
+  max-width: 100%;
+}
+
+.nominee-title {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: left;
+  background-color: rgba(255, 44, 0, 0.9);
+  box-shadow: 6px 5px 0px rgba(255, 54, 78, 0.45);
+}
+
+.nominee-cate-title {
+  color: white;
+  padding: 2px;
+  text-align: left;
+  background-color: #9012fe;
+  font-size: 12px;
+}
+
+.promo-home-section {
+  background-image: url("../img/promo-home-background.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.promo-title {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  background-color: rgba(28, 1, 255, 0.90);
+  box-shadow: 6px 5px 0px rgba(110, 117, 255, 0.90);
+  margin-left: -220px;
+  margin-bottom: -100px;
+  z-index: 999;
+  position: relative;
+}
+.promo-title-sm {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  background-color: rgba(28, 1, 255, 0.90);
+  box-shadow: 6px 5px 0px rgba(110, 117, 255, 0.90);
+}
+.promo-home-container {
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+.promo-upload {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  background-color: rgba(254, 62, 62, 0.9);
+  box-shadow: -6px 5px 0px rgba(254, 62, 62, 0.40);
+  z-index: 999;
+  position: relative;
+  cursor: pointer;
+  margin-top: -10px;
+}
+
+.social-title {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: left;
+  background-color: rgba(255, 44, 0, 0.90);
+  box-shadow: 6px 5px 0px rgba(255, 44, 0, 0.45);
+}
+
+.last-year-title {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: left;
+  background-color: rgba(254, 135, 0, 0.90);;
+  box-shadow: 6px 5px 0px rgba(254, 135, 0, 0.45);
+}
+/* Global */
+ 
+
+.thumbnails img { max-width:100%; }
+
+.thumbnails a {
+    -webkit-transition: all 150ms ease;
+  -moz-transition: all 150ms ease;
+  -ms-transition: all 150ms ease;
+  -o-transition: all 150ms ease;
+  transition: all 150ms ease; 
+  }
+    
+.thumbnails a:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+    filter: alpha(opacity=50); /* IE7 */
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+
+
+/*body{
+    border-top:0;
+    background:#c4e17f;
+    background-image:-webkit-linear-gradient(left,#c4e17f,#c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4);background-image:-moz-linear-gradient(left,#c4e17f,#c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4);background-image:-o-linear-gradient(left,#c4e17f,#c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4);background-image:linear-gradient(to right,#c4e17f,#c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4)
+}*/
+
+.thumbnails li> .fff .caption { 
+    background:#fff !important; 
+    padding:0px
+}
+
+ul.thumbnails { 
+    margin-bottom: 0px;
+}
+
+/* Carousel Control */
+.control-box {
+    text-align: right;
+    width: 100%;
+}
+.carousel-control{
+    background: #666;
+    border: 0px;
+    border-radius: 0px;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 18px;
+    opacity: 0.5;
+    padding: 0px;
+    position: static;
+    height: 30px;
+    width: 15px;
+}
+
+/* Mobile Only */
+@media (max-width: 767px) {
+    .page-header, .control-box {
+        text-align: center;
+    } 
+}
+@media (max-width: 479px) {
+    .caption {
+        word-break: break-all;
+    }
+}
+
+.overlay {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, .7);
+  overflow: hidden;
+  width: 90%;
+  transition: .5s ease;
+  box-shadow: 0 0 6px 4px rgba(0, 0, 0, .7);
+}
+
+.thumbnail:hover .overlay {
+  height: 90%;
+}
+
+.thumbnail:hover {
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.thumbnail-others:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.advertisment:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.overlay-2 {
+  position: absolute;
+  bottom: 25px;
+  left: 5px;
+  background-color: rgba(0, 0, 0, .7);
+  overflow: hidden;
+  width: 95%;
+  transition: .5s ease;
+  box-shadow: 0 0 6px 4px rgba(0, 0, 0, .7);
+}
+.thumbnail:hover .overlay-2 {
+  height: 90%;
+}
+.text {
+  color: white;
+  position: absolute;
+  overflow: hidden;
+  padding: 20px;
+  bottom: 10px; 
+}
+
+.event-intro {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.81);
+  min-height: 310px;
+}
+
+.event-intro-padding {
+  padding-left: 10px;
+  padding-top: 30px;
+}
+
+.event-more-btn {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  background-color: rgba(28, 1, 255, 0.90);
+  box-shadow: -16px -15px 0px rgba(28, 1, 255, 0.40);
+  z-index: 999;
+  position: relative;
+  cursor: pointer;
+  margin-top: -10px;
+  float: right;
+}
+
+.feature-title {
+  color: white;
+  padding: 15px;
+  width: 260px;
+  text-align: left;
+  background-color: rgba(254, 135, 0, 0.90);
+  box-shadow: 6px 5px 0px rgba(254, 135, 0, 0.45);
+  margin-top: -50px;
+}
+.recommended-title {
+  color: white;
+  padding: 15px;
+  width: 300px;
+  text-align: left;
+  background-color: rgba(28, 1, 255, 0.9);
+  box-shadow: 6px 5px 0px rgba(28, 1, 255, 0.45);
+}
 /*.carousel.vertical .active {*/
   /*top: 0;*/
 /*}*/
