@@ -133,3 +133,9 @@
     margin-left: 20px;
 
 }
+.Oval-3 {
+    width: 16px;
+    height: 16px;
+    opacity: 0.4;
+    border: solid 0.5px #000000;
+}
