@@ -18,7 +18,7 @@
 body {
   color: #FFFFFF;
   background-color: #27292d;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .slider-container {
