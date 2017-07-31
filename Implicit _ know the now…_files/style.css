@@ -3146,8 +3146,8 @@ input[type="button"].btn-block {
 .dropdown-menu>li>a:hover,
 .dropdown-menu>li>a:focus {
     text-decoration: none;
-    color: #262626;
-    background-color: #f5f5f5
+    /*color: #262626;*/
+    /*background-color: #f5f5f5*/
 }
 .dropdown-menu>.active>a,
 .dropdown-menu>.active>a:hover,
@@ -6882,9 +6882,10 @@ sticky nav
         text-transform: uppercase;
         position: relative;
         color: #333;
-        padding: 8px 20px 8px 0;
+        padding: 8px 20px 30px 43px;
         margin-bottom: 1px;
-        cursor: pointer
+        cursor: pointer;
+        text-decoration: none;
     }
     .nav-menu li > a:hover,
     .nav-menu li.over > a,
@@ -6909,7 +6910,7 @@ sticky nav
         /*padding-top: 12px;*/
         /*padding-left: 37px;*/
         border-bottom: 1px solid #2e2e2e;
-        padding: 10px 0px 10px 40px;
+        padding: 10px 0px 10px 30px;
 
     }
 
@@ -13086,9 +13087,9 @@ font icons
 }
 /* '\1f516' */
 
-.theme-icon-flag:before {
-    content: '\2691';
-}
+/*.theme-icon-flag:before {*/
+    /*content: '\2691';*/
+/*}*/
 /* '⚑' */
 
 .theme-icon-thumbs-up:before {
@@ -13209,7 +13210,7 @@ font icons
 .theme-icon-down:before {
     content: url("down2x.png");
 }
-.theme-icon-flag:before {
+.theme-icon-flag {
     content: url("flag2x.png");
     height: 19px;
     width: 19px;
@@ -13219,6 +13220,9 @@ font icons
 /*}*/
 /* '⬇' */
 
+.no-underlineonlink{
+    text-decoration: none;
+}
 .theme-icon-left:before {
     content: '\2b05';
 }
