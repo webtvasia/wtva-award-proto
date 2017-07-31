@@ -6738,7 +6738,7 @@ sticky bar
     /*everything after the sticky bar needs to be shifted down*/
 
     .after-header {
-        margin: 70px auto 0 auto;
+        margin: 20px auto 0 auto;
         position: relative;
         /*max-width: 1340px*/
     }
@@ -6759,7 +6759,7 @@ sticky nav
         /*background-color: #00459d;*/
         /*border-right: 1px solid #DBDBDB;*/
         /*border-left: 1px solid #EBEBF0*/
-        opacity: 0.8;
+        opacity: 1;
         background-color: #000000;
 
     }
@@ -6920,7 +6920,7 @@ sticky nav
     }
     .nav-menu ul li > a {
         display: block;
-        text-transform: uppercase
+        /*text-transform: uppercase*/
     }
     .nav-menu ul li ul {
         display: none;
@@ -6968,13 +6968,14 @@ sticky nav
         width: 294px;
         margin-left: 160px;
         z-index: 211;
-        background: rgba(245, 246, 250, .96);
-        -webkit-box-shadow: 10px 0 20px 0 rgba(0, 0, 0, 0.3);
-        -moz-box-shadow: 10px 0 20px 0 rgba(0, 0, 0, 0.3);
-        box-shadow: 10px 0 20px 0 rgba(0, 0, 0, 0.3);
+        /*background: rgba(245, 246, 250,0.8);*/
+        /*-webkit-box-shadow: 10px 0 20px 0 rgba(0, 0, 0, 0.3);*/
+        /*-moz-box-shadow: 10px 0 20px 0 rgba(0, 0, 0, 0.3);*/
+        /*box-shadow: 10px 0 20px 0 rgba(0, 0, 0, 0.3);*/
     }
     #section-menu .mega-content {
-        display: none
+        display: none;
+        background-color: #000000;
     }
     #section-menu .mega-wrapper {
         height: 100%
@@ -13209,7 +13210,7 @@ font icons
     content: url("down2x.png");
 }
 .theme-icon-flag:before {
-    content: url("flag.png");
+    content: url("flag2x.png");
     height: 19px;
     width: 19px;
 }
