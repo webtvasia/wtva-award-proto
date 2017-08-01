@@ -215,3 +215,20 @@ html {
   color: #4E7AF0;
 }
 
+
+@media screen and (min-width: 1480px) {
+  .about-container-mid {
+    width: 70%;
+    margin-left: -120px;
+  }
+  .about-container-right {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .about-container-mid {
+  }
+  .about-container-right {
+  }
+}
