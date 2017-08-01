@@ -6751,7 +6751,7 @@ sticky nav
 
     #sticky-nav {
         width: 200px;
-        height: 522px;
+        height: 72vh;
         position: absolute;
         top: 0;
         z-index: 498;
