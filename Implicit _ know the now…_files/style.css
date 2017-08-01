@@ -6465,10 +6465,10 @@ sticky bar
     #menu-search input#s,
     #nav-search input#s-nav {
         text-align: left;
-        margin-top: 40px;
+        margin-top: 15px;
         margin-left: 185px;
         font-family: Titillium Web;
-        font-size: 14px;
+        font-size: 30px;
         font-style: italic;
         text-align: center;
         border: none;
