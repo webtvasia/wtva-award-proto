@@ -2007,7 +2007,7 @@
                    <div class="Judges-Rate"> <span>Judges
                   Rate</span>
                 </div>
-                    <div class="layer">
+                    <div class="layer judge-val">
                         7.8
                     </div>
                 </div>
@@ -2015,7 +2015,7 @@
 
                     <div class="Average-text"> <span>Average</span>
                     </div>
-                    <div class="Average-number">
+                    <div class="Average-number average-val">
                         7.8
                     </div>
 
@@ -2031,17 +2031,17 @@
                 </div>
                 <div class="Rectangle-25">
                     <div style="padding: 17px 44px 23px 0px">
-                    <div class="Oval-3 ">10</div>
-                    <div class="Oval-3 ">9</div>
-                    <div class="Oval-3 ">8</div>
-                    <div class="Oval-3 ">7</div>
+                    <div class="Oval Oval-3 " style="cursor: pointer;">10</div>
+                    <div class="Oval Oval-3 " style="cursor: pointer;">9</div>
+                    <div class="Oval Oval-3 " style="cursor: pointer;">8</div>
+                    <div class="Oval Oval-3 " style="cursor: pointer;">7</div>
 
-                    <div class="Oval-4" >6</div>
-                    <div class="Oval-3 ">5</div>
-                    <div class="Oval-3 ">4</div>
-                    <div class="Oval-3 ">3</div>
-                    <div class="Oval-3  " >2</div>
-                    <div class="Oval-3 " >1</div>
+                    <div class="Oval Oval-4 " style="cursor: pointer;">6</div>
+                    <div class="Oval Oval-3 " style="cursor: pointer;">5</div>
+                    <div class="Oval Oval-3 " style="cursor: pointer;">4</div>
+                    <div class="Oval Oval-3 " style="cursor: pointer;">3</div>
+                    <div class="Oval Oval-3 " style="cursor: pointer;">2</div>
+                    <div class="Oval Oval-3 " style="cursor: pointer;" >1</div>
                 </div>
                 </div>
             </div>
@@ -2251,6 +2251,31 @@
 <script type="text/javascript" src="./Implicit _ know the now…_files/wp-embed.min.js"></script>
 <script src="./node_modules/jquery/dist/jquery.min.js"></script>
 <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    // Carousel Auto-Cycle
+    $(document).ready(function () {
+
+        $('.Oval').click(function() {
+            var rate_adjust = $(this).html();
+            $(this).removeClass("Oval-3").addClass("Oval-t");
+            $('.Oval-4').removeClass("Oval-4").addClass("Oval-3");
+            $('.Oval-t').removeClass("Oval-t").addClass("Oval-4");
+            // (Math.random() * (0.1 - 0.9) + rate_adjust).toFixed(1)
+            
+            rate_adjust = parseFloat(rate_adjust) + parseFloat((Math.random() * (0.90 - 0.00) + 0.00).toFixed(1));
+
+            if (rate_adjust>=10) {
+                rate_adjust -= 1;
+            }
+            $('.judge-val').html(rate_adjust);
+            $('.average-val').html(rate_adjust);
+           
+        });
+
+
+
+    });
+</script>
 </body>
 
 </html>
