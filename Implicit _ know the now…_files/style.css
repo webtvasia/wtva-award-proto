@@ -7114,7 +7114,7 @@ sticky nav
         float: right;
         margin-top: 51px;
         margin-right: 55px;
-
+        position: absolute;
     }
     .See-All-Categories {
         width: 147px;
