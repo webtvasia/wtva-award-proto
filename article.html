@@ -2271,7 +2271,11 @@
 
             display_value = parseFloat(rate_adjust) + random_value + parseFloat((Math.random() * (0.90 - 0.00) + 0.00).toFixed(1));
 
-            if (display_value>=10) {
+            if (display_value >= 10) {
+                display_value -= 1;
+            }
+
+            if (display_value >= 10) {
                 display_value -= 1;
             }
 
