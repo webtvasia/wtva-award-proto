@@ -2004,8 +2004,7 @@
             <div class="col-md-12 remove-pading" style="margin-top: 20px;" >
 
                 <div class="Rectangle-judges">
-                   <div class="Judges-Rate"> <span>Judges
-                  Rate</span>
+                   <div class="Judges-Rate"> <span>Regional Rating</span>
                 </div>
                     <div class="layer judge-val">
                         7.8
@@ -2021,7 +2020,7 @@
 
                 </div>
                 <div class="separatingline"></div>
-                <div class="People-Rate">People Rate</div>
+                <div class="People-Rate">Local Rating</div>
                 <div class="People-Rate-number">
                     <img src="assets/img/profile-1336@2x.png">
                     <span class="People-Rate-number-text" >344</span>
@@ -2261,13 +2260,22 @@
             $('.Oval-t').removeClass("Oval-t").addClass("Oval-4");
             // (Math.random() * (0.1 - 0.9) + rate_adjust).toFixed(1)
             
-            rate_adjust = parseFloat(rate_adjust) + parseFloat((Math.random() * (0.90 - 0.00) + 0.00).toFixed(1));
+            var random_value = parseFloat((Math.random() * (0.90 - 0.00) + 0.00).toFixed(1));
+            var display_value = parseFloat(rate_adjust) + random_value;
 
-            if (rate_adjust>=10) {
-                rate_adjust -= 1;
+            if (display_value>=10) {
+                display_value -= 1;
             }
-            $('.judge-val').html(rate_adjust);
-            $('.average-val').html(rate_adjust);
+            
+            $('.judge-val').html(display_value.toFixed(1));
+
+            display_value = parseFloat(rate_adjust) + random_value + parseFloat((Math.random() * (0.90 - 0.00) + 0.00).toFixed(1));
+
+            if (display_value>=10) {
+                display_value -= 1;
+            }
+
+            $('.average-val').html(display_value.toFixed(1));
            
         });
 
