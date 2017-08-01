@@ -1,0 +1,49 @@
+
+@media screen and (min-width: 1480px) {
+  .discover-main {
+    margin-bottom: -80px;
+    border-radius: 0px;
+    max-width: 140%;
+    margin-left: -15%;
+    margin-top: -10%;
+  }
+
+  .discover-main-title {
+    margin-top: -130px;
+    float: right;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 38px;
+  }
+
+  .nominees-container-full {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .nominees-container-full {
+    width: 75%;
+    margin-left: 0px;
+  }
+
+}
+
+@media screen and (max-width: 1480px) {
+  .discover-main {
+     margin-bottom: -80px;
+    border-radius: 0px;
+    max-width: 120%;
+    margin-left: -5%;
+    margin-top: -7.5%;
+  }
+
+  .discover-main-title {
+    margin-top: -120px;
+    float: right;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 38px;
+  }
+}

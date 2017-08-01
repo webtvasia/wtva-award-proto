@@ -303,6 +303,11 @@ ul.thumbnails {
   background-color: rgba(28, 1, 255, 0.9);
   box-shadow: 6px 5px 0px rgba(28, 1, 255, 0.45);
 }
+
+.thumbnail img{
+  border-radius: 0px;
+}
+
 /*.carousel.vertical .active {*/
   /*top: 0;*/
 /*}*/
