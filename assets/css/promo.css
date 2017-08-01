@@ -195,7 +195,7 @@ body {
   position: absolute;
   z-index: 3;
   display: block;
-  right: 85%;
+  right: 88%;
   top: 50%;
   color: #ffffff;
   transform: translateY(-50%);
@@ -206,7 +206,7 @@ body {
   position: absolute;
   z-index: 3;
   display: block;
-  left: 85%;
+  left: 88%;
   top: 50%;
   color: #ffffff;
   transform: translateY(-50%);
