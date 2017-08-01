@@ -308,6 +308,10 @@ ul.thumbnails {
   border-radius: 0px;
 }
 
+.hover-effect:hover {
+  opacity: 0.7;
+}
+
 /*.carousel.vertical .active {*/
   /*top: 0;*/
 /*}*/
