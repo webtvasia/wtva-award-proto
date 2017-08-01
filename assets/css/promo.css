@@ -167,7 +167,7 @@ body {
 }
 .slider-container .slider-content .slider-single.active .slider-single-image {
   opacity: 1;
-  transform: translateX(0%) scale(1);
+  transform: translateX(0%) scale(1.1);
 }
 .slider-container .slider-content .slider-single.active .slider-single-download {
   opacity: 1;
@@ -243,4 +243,16 @@ body {
   background-size: cover;
   background-position: center center;
   min-height: 731px;
+}
+
+@media screen and (min-width: 1480px) {
+  .slider-container {
+      top: 59%;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .slider-container {
+      top: 70%;
+  }
 }
