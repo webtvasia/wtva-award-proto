@@ -7100,11 +7100,12 @@ sticky nav
     }
     .Rectangle-5 {
         position: absolute;
-        margin-top: 67px;
+        /*margin-top: 67px;*/
         width: 150px;
         height: 53px;
         opacity: 0.7;
         background-color: rgba(0, 0, 0, 0.66);
+        bottom: 10px;
     }
 
     .Rectangle-9 {
@@ -7129,7 +7130,7 @@ sticky nav
         margin-top: 15px;
     }
     .Most-Popular-Channel {
-        margin-top: 9px;
+        margin-top: auto;
         margin-left: 14px;
         width: 109px;
         height: 34px;
@@ -7139,6 +7140,14 @@ sticky nav
         line-height: 1.13;
         text-align: left;
         color: #ffffff;
+        margin-bottom: auto;
+        bottom: 0;
+        top: 0;
+        position: absolute;
+
+
+
+
     }
     #section-menu .standard-menu ul li ul {
         position: absolute;
