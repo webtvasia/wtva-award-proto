@@ -7106,6 +7106,8 @@ sticky nav
         opacity: 0.7;
         background-color: rgba(0, 0, 0, 0.66);
         bottom: 10px;
+        margin-left: -15px;
+        border-left: thick solid #331bff;
     }
 
     .Rectangle-9 {
