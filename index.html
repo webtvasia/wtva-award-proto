@@ -222,7 +222,7 @@
             <div class="modal-content" style="height: 100%;width: 100%">
                 <div class="modal-body" style="height: 100%;width: 100%;padding: 0">
                     <div class="videoModalWrapper">
-                        <button style="background: blueviolet;color: white;border: 0;" type="button" data-dismiss="modal">CLOSE</button>
+                        <button style="background: blueviolet;color: white;border: 0;" type="button" data-dismiss="modal">SKIP</button>
                         <iframe frameborder="0" allowfullscreen="allowfullscreen" style="height: 100%;width: 100%" src="https://www.youtube.com/embed/I5MN1scaZ9A?modestbranding=1;version=3;autoplay=1;show=0;showinfo=0;controls=0;iv_load_policy=3;rel=0"></iframe>
                     </div>
                 </div>
@@ -245,26 +245,18 @@
                         <div id="sticky-inner">
 
 
-                            <div class="nav-toggle add-active"><span class="theme-icon-list"></span>
-                            </div>
 
 
+                            <a href="./index.html" title="Home">
                             <div class="logo">
-
-                                <a href="index.html" title="Home">
                                 <img id="site-logo" alt="Implicit" src="./Implicit _ know the now…_files/logo3x.png"
                                      width="115" height="43"
                                      style="margin-top: 11px;margin-left: 43px;margin-bottom: 14px;">
                                 <img id="site-logo-hd" alt="Implicit" src="./Implicit _ know the now…_files/logo3x.png"
                                      width="115" height="43"
                                      style="margin-top: 11px;margin-left: 43px;margin-bottom: 14px;">
-                                <img id="site-logo-mobile" alt="Implicit"
-                                     src="./Implicit _ know the now…_files/logo3x.png" width="115" height="43">
-                                <img id="site-logo-hd-mobile" alt="Implicit"
-                                     src="./Implicit _ know the now…_files/logo3x.png" width="115" height="43">
-                            </a>
-
                             </div>
+                            </a>
 
                             <div id="sticky-controls">
 
@@ -3370,7 +3362,13 @@ color: #ffffff;
                             $('#videomodal iframe').attr('src',
                                 "https://www.youtube.com/embed/vBsheoy9V1o?modestbranding=1;version=3;autoplay=1;show=0;showinfo=0;controls=0;iv_load_policy=3;rel=0"
                             );
+                            setTimeout(function() { $('#videomodal').modal('hide'); }, 24000);
                         });
+                    </script>
+                    <script>
+                        $('#videomodal').on('hidden.bs.modal', function () {
+                            $('#videomodal iframe').attr('src', "");
+                        })
                     </script>
 </body>
 
