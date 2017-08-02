@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d996a340-7c92-47de-bb45-8f7d229f5526" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -1066,8 +1065,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="1543" column="0" lean-forward="true" selection-start-line="1543" selection-start-column="0" selection-end-line="1543" selection-end-column="0" />
+            <state relative-caret-position="572">
+              <caret line="1780" column="48" lean-forward="false" selection-start-line="1780" selection-start-column="48" selection-end-line="1780" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -2048,7 +2047,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51096000" />
+    <option name="totallyTimeSpent" value="51230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="0" />
@@ -5429,8 +5428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="1543" column="0" lean-forward="true" selection-start-line="1543" selection-start-column="0" selection-end-line="1543" selection-end-column="0" />
+        <state relative-caret-position="572">
+          <caret line="1780" column="48" lean-forward="false" selection-start-line="1780" selection-start-column="48" selection-end-line="1780" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
