@@ -1,6 +1,7 @@
 $(window).on('load', function () {
     $('#loading').delay(0).fadeOut(1000, function () {
-
+        // $('#videomodal').modal('show');
+        // $('#videomodal iframe').attr('src', "https://www.youtube.com/embed/A2Q7T8Mg4kM?modestbranding=1;version=3;autoplay=1;show=0;showinfo=0;controls=0;iv_load_policy=3;rel=0");
     });
 });
 
